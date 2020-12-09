@@ -1,0 +1,45 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  /* background-color: #DEE4E7; */
+}
+body {
+  /* background-color: #DEE4E7; */
+}
+p {
+  color: #4b5563;
+}
+
+.travel-types-wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  width: 40%;
+  margin: auto;
+}
+
+.flex-div {
+  display: flex;
+  justify-content: space-between;
+  background-color: #e5e7eb;
+  /* width: 80%; */
+  padding: 0.5px 20px;
+  margin: 5px auto;
+  border: 0.5px rgba(0, 0, 0, 0.26) solid;
+  border-radius: 10px;
+}
+.flex-div-cover {
+  margin: 30px auto;
+  /* border-radius: 25px;
+  border: 1px black solid; */
+  width: 40%;
+}
+@media (max-width: 930px) {
+  .flex-div-cover {
+    width: 80%;
+  }
+  .travel-types-wrapper {
+    width: 80%;
+  }
+}
