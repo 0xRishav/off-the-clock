@@ -54,8 +54,8 @@ export default function App() {
       <p>👋 Welcome to Off the Clock</p>
       <h1>Off The Clock</h1>
       <p style={{ marginBottom: "30px", fontSize: "14px", fontWeight: "bold" }}>
-        Off the Clock is a Travel Reccommendation app which gives you travel
-        reccommendation of diffrent types
+        Off the Clock is a Travel recommendation app which gives you travel
+        recommendation of diffrent types.
       </p>
       <div className="travel-types-wrapper">
         {travelKeys.map(function (place) {
